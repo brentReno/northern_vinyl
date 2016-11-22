@@ -1,0 +1,18 @@
+p {
+  color: #C51230; }
+
+.about, .portfolio, .contact {
+  background-color: #EEE3C7;
+  height: 800px;
+  position: relative; }
+
+.navBar {
+  position: fixed;
+  z-index: 1; }
+
+.content {
+  position: absolute;
+  z-index: 0;
+  margin-top: 100px; }
+
+/*# sourceMappingURL=main.css.map */
