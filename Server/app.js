@@ -6,7 +6,7 @@ var bpJason = bodyParser.json();
 var port = process.env.PORT || 3030;
 var path = require('path');
 
-app.use( express.static( 'public' ) );
+app.use( express.static( 'server/public' ) );
 app.use(bpJason);
 app.use(urlencodedParser);
 
