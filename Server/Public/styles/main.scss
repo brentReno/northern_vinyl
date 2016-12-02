@@ -1,21 +1,19 @@
 $iron-range-red: #C51230;
 $minnesota-wheat: #EEE3C7;
 
+body{
+background: url('../images/northern_bg.png');
+background-repeat: no-repeat;
+}
 p{
   color: $iron-range-red;
 }
 
 .about, .portfolio, .contact{
-  background-color: $minnesota-wheat;
+
   height: 800px;
   position: relative;
 }
-.navBar{
-  position:fixed;
-  z-index:1;
-}
-.content{
-  position: absolute;
-  z-index: 0;
-  margin-top: 100px;
+.container-fluid{
+  margin-top:50px;
 }
