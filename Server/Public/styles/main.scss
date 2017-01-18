@@ -1,19 +1,26 @@
 $iron-range-red: #C51230;
 $minnesota-wheat: #EEE3C7;
+$white: #ffffff;
+$forest-green: #004F30;
+$harvest-gold: #F1B310;
 
-body{
-background: url('../images/northern_bg.png');
-background-repeat: no-repeat;
+html, body{
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 22px;
 }
-p{
-  color: $iron-range-red;
-}
 
-.about, .portfolio, .contact{
-
-  height: 800px;
+section{
   position: relative;
+  margin: 0 -9999rem;
+  padding: 5.25rem 9999rem;
+  text-align: center;
 }
-.container-fluid{
-  margin-top:50px;
+
+#welcomeSection{
+  background-color: $iron-range-red;
+  color: $white;
 }

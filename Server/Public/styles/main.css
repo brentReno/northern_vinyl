@@ -1,15 +1,19 @@
-body {
-  background: url("../images/northern_bg.png");
-  background-repeat: no-repeat; }
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 22px; }
 
-p {
-  color: #C51230; }
+section {
+  position: relative;
+  margin: 0 -9999rem;
+  padding: 5.25rem 9999rem;
+  text-align: center; }
 
-.about, .portfolio, .contact {
-  height: 800px;
-  position: relative; }
-
-.container-fluid {
-  margin-top: 50px; }
+#welcomeSection {
+  background-color: #C51230;
+  color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */

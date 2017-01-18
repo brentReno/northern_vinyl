@@ -1,1 +1,1 @@
-body{background:url("../images/northern_bg.png");background-repeat:no-repeat}p{color:#C51230}.about,.portfolio,.contact{height:800px;position:relative}.container-fluid{margin-top:50px}
+body,html{overflow-x:hidden;margin:0;height:100%;font-family:sans-serif;font-weight:100;font-size:22px}section{position:relative;margin:0 -9999rem;padding:5.25rem 9999rem;text-align:center}#welcomeSection{background-color:#C51230;color:#fff}

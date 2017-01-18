@@ -1,14 +1,11 @@
-console.log("client.js working");
 
 $(document).ready(function(){
-  console.log("JS is Ready");
-  // smooth-scroll
-  $('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-
+  $('a').click(function(){
+    console.log(this);
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 1000);
+    console.log(this);
     return false;
 });
 });
