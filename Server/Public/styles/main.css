@@ -13,16 +13,32 @@ section {
   text-align: center;
   color: #ffffff; }
 
+.sectionImage {
+  position: relative;
+  margin: 0 -9999rem;
+  padding: 5.25rem 9999rem;
+  text-align: center; }
+
 #welcomeSection {
-  background-color: #C51230; }
+  background-color: #C51230;
+  font-size: 48px; }
 
 #aboutSection {
   background-color: #EEE3C7; }
+
+#aboutSection p {
+  padding: 0 3rem; }
+
+.workImage {
+  padding: 5px 5px 5px 5px; }
 
 #workSection {
   background-color: #004F30; }
 
 #contactSection {
   background-color: #F1B310; }
+
+::-webkit-scrollbar {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */

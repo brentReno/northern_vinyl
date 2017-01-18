@@ -20,16 +20,33 @@ section{
   text-align: center;
   color: $white;
 }
+.sectionImage{
+  position: relative;
+  margin: 0 -9999rem;
+  padding: 5.25rem 9999rem;
+  text-align: center;
+}
 
 #welcomeSection{
   background-color: $iron-range-red;
+  font-size: 48px;
 }
+#welcomeSection{}
 #aboutSection{
   background-color: $minnesota-wheat;
+}
+#aboutSection p{
+  padding: 0 3rem;
+}
+.workImage{
+  padding: 5px 5px 5px 5px;
 }
 #workSection{
   background-color:$forest-green;
 }
 #contactSection{
   background-color: $harvest-gold;
+}
+::-webkit-scrollbar{
+  display: none;
 }
