@@ -18,9 +18,18 @@ section{
   margin: 0 -9999rem;
   padding: 5.25rem 9999rem;
   text-align: center;
+  color: $white;
 }
 
 #welcomeSection{
   background-color: $iron-range-red;
-  color: $white;
+}
+#aboutSection{
+  background-color: $minnesota-wheat;
+}
+#workSection{
+  background-color:$forest-green;
+}
+#contactSection{
+  background-color: $harvest-gold;
 }
