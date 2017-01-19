@@ -31,15 +31,28 @@ section {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
   margin-bottom: -50px; }
 
-#welcomeSection {
-  background-color: #C51230;
-  font-size: 48px;
-  height: 500px;
+.nav-scrolled {
   position: fixed;
   top: 0;
   width: 100%; }
 
-.nav-scrolled {
+#nav-links {
+  text-align: right; }
+
+#nav-links a {
+  margin-left: 25px;
+  font-size: 28px;
+  color: #C51230;
+  text-decoration: none;
+  line-height: 50px; }
+
+#nav-links:last-child {
+  margin-right: 25px; }
+
+#welcomeSection {
+  background-color: #C51230;
+  font-size: 48px;
+  height: 500px;
   position: fixed;
   top: 0;
   width: 100%; }

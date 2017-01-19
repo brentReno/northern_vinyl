@@ -41,6 +41,26 @@ section{
   margin-bottom: -$nav-sizing;
 }
 
+.nav-scrolled{
+  position: fixed;
+  top: 0;
+  width:100%;
+}
+
+#nav-links{
+  text-align: right;
+}
+
+#nav-links a{
+  margin-left: 25px;
+  font-size: 28px;
+  color: $iron-range-red;
+  text-decoration: none;
+  line-height: 50px;
+}
+#nav-links:last-child{
+  margin-right: 25px;
+}
 
 #welcomeSection{
   background-color: $iron-range-red;
@@ -51,11 +71,7 @@ section{
   width:100%;
 }
 
-.nav-scrolled{
-  position: fixed;
-  top: 0;
-  width:100%;
-}
+
 
 #aboutSection{
   background-color: $minnesota-wheat;
