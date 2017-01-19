@@ -4,8 +4,11 @@ $white: #ffffff;
 $forest-green: #004F30;
 $harvest-gold: #F1B310;
 
-html, body{
+body{
+  padding-top: 650px;
   overflow-x: hidden;
+}
+html, body{
   margin: 0;
   height: 100%;
   font-family: sans-serif;
@@ -15,6 +18,7 @@ html, body{
 
 section{
   position: relative;
+  // height: 100%;
   margin: 0 -9999rem;
   padding: 5.25rem 9999rem;
   text-align: center;
@@ -26,12 +30,29 @@ section{
   padding: 5.25rem 9999rem;
   text-align: center;
 }
+.nav{
+  position: relative;
+  height:50px;
+  background-color: $white;
+  z-index: 150;
+  box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
+}
 
 #welcomeSection{
   background-color: $iron-range-red;
   font-size: 48px;
+  height:500px;
+  position: fixed;
+  top: 0;
+  width:100%;
 }
-#welcomeSection{}
+
+.nav-scrolled{
+  position: fixed;
+  top: 0;
+  width:100%;
+}
+
 #aboutSection{
   background-color: $minnesota-wheat;
 }

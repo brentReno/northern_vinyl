@@ -1,11 +1,13 @@
 
 $(document).ready(function(){
-  $('a').click(function(){
-    console.log(this);
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 1000);
-    console.log(this);
-    return false;
-});
+  console.log("ready");
+  var nav = $(".nav");
+  $(window).scroll(function(){
+    if( $(this).scrollTop() > 650){
+      console.log(650);
+      nav.addClass(" nav-scrolled");
+    } else{
+      nav.removeClass(" nav-scrolled");
+    }
+  });
 });
