@@ -15,7 +15,7 @@ section {
   margin: 0 -9999rem;
   padding: 3.25rem 9999rem;
   text-align: center;
-  color: #ffffff; }
+  color: #E5ECE1; }
 
 .sectionImage {
   position: relative;
@@ -26,7 +26,7 @@ section {
 .nav {
   position: relative;
   height: 50px;
-  background-color: #ffffff;
+  background-color: #E5ECE1;
   z-index: 150;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
   margin-bottom: -50px; }
@@ -42,7 +42,7 @@ section {
 #nav-links a {
   margin-left: 25px;
   font-size: 28px;
-  color: #C51230;
+  color: #30708B;
   text-decoration: none;
   line-height: 50px; }
 
@@ -56,18 +56,25 @@ section {
   margin-left: 50px;
   margin-top: 1px;
   clear: none;
-  float: left; }
+  float: left;
+  width: 48px; }
 
 #welcomeSection {
-  background-color: #C51230;
   font-size: 48px;
   height: 500px;
   position: fixed;
   top: 0;
   width: 100%; }
 
+#background {
+  background-image: url("../images/background/waterfall.jpeg");
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed; }
+
 #aboutSection {
-  background-color: #EEE3C7; }
+  background-color: #689DB0; }
 
 #aboutSection p {
   padding: 0 3rem; }
@@ -76,10 +83,10 @@ section {
   padding: 5px 5px 5px 5px; }
 
 #workSection {
-  background-color: #004F30; }
+  background-color: #76986C; }
 
 #contactSection {
-  background-color: #F1B310; }
+  background-color: #689DB0; }
 
 ::-webkit-scrollbar {
   display: none; }

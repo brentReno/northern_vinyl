@@ -1,8 +1,8 @@
-$iron-range-red: #C51230;
-$minnesota-wheat: #EEE3C7;
-$white: #ffffff;
-$forest-green: #004F30;
-$harvest-gold: #F1B310;
+$teal-blue: #30708B;
+$ash-grey: #B1BBBA;
+$platinum: #E5ECE1;
+$camo-green: #76986C;
+$cadet-blue: #689DB0;
 $nav-sizing: 50px;
 
 
@@ -24,7 +24,7 @@ section{
   margin: 0 -9999rem;
   padding: 3.25rem 9999rem;
   text-align: center;
-  color: $white;
+  color: $platinum;
 }
 .sectionImage{
   position: relative;
@@ -35,7 +35,7 @@ section{
 .nav{
   position: relative;
   height:$nav-sizing;
-  background-color: $white;
+  background-color: $platinum;
   z-index: 150;
   box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
   margin-bottom: -$nav-sizing;
@@ -54,7 +54,7 @@ section{
 #nav-links a{
   margin-left: 25px;
   font-size: 28px;
-  color: $iron-range-red;
+  color: $teal-blue;
   text-decoration: none;
   line-height: 50px;
 }
@@ -70,10 +70,10 @@ section{
   margin-top: 1px;
   clear: none;
   float:left;
+  width:48px;
 }
 
 #welcomeSection{
-  background-color: $iron-range-red;
   font-size: 48px;
   height:500px;
   position: fixed;
@@ -81,10 +81,17 @@ section{
   width:100%;
 }
 
-
+#background{
+  background-image: url("../images/background/waterfall.jpeg");
+  width: 100%;
+  height: 100%;
+  // margin-top: -188px;
+  top:0;
+  position: fixed;
+}
 
 #aboutSection{
-  background-color: $minnesota-wheat;
+  background-color: $cadet-blue;
 }
 #aboutSection p{
   padding: 0 3rem;
@@ -93,10 +100,10 @@ section{
   padding: 5px 5px 5px 5px;
 }
 #workSection{
-  background-color:$forest-green;
+  background-color:$camo-green;
 }
 #contactSection{
-  background-color: $harvest-gold;
+  background-color: $cadet-blue;
 }
 ::-webkit-scrollbar{
   display: none;
