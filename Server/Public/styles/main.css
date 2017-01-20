@@ -49,6 +49,12 @@ section {
 #nav-links:last-child {
   margin-right: 25px; }
 
+#nav-logo {
+  margin-left: 50px;
+  margin-top: 1px;
+  clear: none;
+  float: left; }
+
 #welcomeSection {
   background-color: #C51230;
   font-size: 48px;
