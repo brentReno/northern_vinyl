@@ -73,6 +73,9 @@ section {
   top: 0;
   position: fixed; }
 
+#welcomeSection h1 {
+  padding-top: 6rem; }
+
 #aboutSection {
   background-color: #689DB0; }
 
