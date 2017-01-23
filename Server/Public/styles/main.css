@@ -36,6 +36,9 @@ section {
   top: 0;
   width: 100%; }
 
+.bold {
+  font-weight: bold; }
+
 #nav-links {
   text-align: right; }
 
@@ -89,12 +92,31 @@ section {
   background-color: #76986C; }
 
 #contactSection {
-  background-color: #689DB0;
-  padding-bottom: 15rem; }
+  background-color: #689DB0; }
+
+#contact-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+
+#contact-form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+form {
+  text-align: left;
+  margin-left: 27%;
+  margin-right: auto;
+  display: block;
+  width: 100%; }
 
 #contact-button {
   border: none;
   background-color: #E5ECE1;
+  color: #30708B;
   border-radius: 15px;
   font-size: 18px;
   padding: 10px;
@@ -102,6 +124,16 @@ section {
   margin-right: auto;
   display: block;
   width: 50%; }
+
+#footer {
+  height: 100px;
+  background-color: #76986C;
+  font-size: 12px; }
+
+#footer-content {
+  text-align: left;
+  margin-top: -20px;
+  margin-left: 25px; }
 
 ::-webkit-scrollbar {
   display: none; }
