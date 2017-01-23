@@ -73,7 +73,7 @@ section {
   background-image: url("../images/background/waterfall.jpeg");
   width: 100%;
   height: 100%;
-  top: 0;
+  top: -30px;
   position: fixed; }
 
 #welcomeSection h1 {
