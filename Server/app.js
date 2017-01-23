@@ -6,7 +6,7 @@ var bpJason = bodyParser.json();
 var port = process.env.PORT || 3030;
 var path = require('path');
 
-app.use( express.static( 'Server/public' ) );
+app.use( express.static( 'Server/Public' ) );
 app.use(bpJason);
 app.use(urlencodedParser);
 
@@ -16,5 +16,5 @@ app.listen(port, function(){
 
 app.get('/', function(req, res){
   console.log('base url hit');
-  res.sendFile(path.resolve('Server/public/views/index.html'));
+  res.sendFile(path.resolve('Server/Public/views/index.html'));
 });
