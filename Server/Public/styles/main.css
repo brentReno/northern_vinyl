@@ -89,7 +89,19 @@ section {
   background-color: #76986C; }
 
 #contactSection {
-  background-color: #689DB0; }
+  background-color: #689DB0;
+  padding-bottom: 15rem; }
+
+#contact-button {
+  border: none;
+  background-color: #E5ECE1;
+  border-radius: 15px;
+  font-size: 18px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%; }
 
 ::-webkit-scrollbar {
   display: none; }
