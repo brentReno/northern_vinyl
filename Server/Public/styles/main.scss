@@ -4,6 +4,8 @@ $platinum: #E5ECE1;
 $camo-green: #76986C;
 $cadet-blue: #689DB0;
 $nav-sizing: 50px;
+$amatic-sc: 'Amatic SC', cursive;
+$open-sans: 'Open Sans Condensed', sans-serif;
 
 
 body{
@@ -13,32 +15,34 @@ body{
 html, body{
   margin: 0;
   height: 100%;
-  font-family: sans-serif;
   font-weight: 100;
   font-size: 22px;
+  font-family: $open-sans;
+}
+h1{
+  font-family: $amatic-sc;
+  font-size: 48px;
 }
 
 section{
   position: relative;
-  height: 100%;
+  height: auto;
   margin: 0 -9999rem;
   padding: 3.25rem 9999rem;
   text-align: center;
   color: $platinum;
 }
-.sectionImage{
-  position: relative;
-  margin: 0 -9999rem;
-  padding: 5.25rem 9999rem;
-  text-align: center;
-}
+
+
 .nav{
   position: relative;
   height:$nav-sizing;
   background-color: $platinum;
   z-index: 150;
   box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
+  // margin-top: -0.5rem;
   margin-bottom: -$nav-sizing;
+  font-family: $amatic-sc;
 }
 
 .nav-scrolled{
@@ -54,21 +58,21 @@ section{
 }
 
 #nav-links a{
-  margin-left: 25px;
+  margin-left: 1.5rem;
   font-size: 28px;
   color: $teal-blue;
   text-decoration: none;
   line-height: 50px;
 }
 #nav-links:last-child{
-  margin-right: 25px;
+  margin-right: 1.5rem;
 }
 #nav-links:first-child{
   margin-left: 0;
 }
 
 #nav-logo{
-  margin-left: 50px;
+  margin-left: 3rem;
   margin-top: 1px;
   clear: none;
   float:left;
@@ -76,24 +80,15 @@ section{
 }
 
 #welcomeSection{
-  font-size: 48px;
-  height:500px;
+  height:100%;
+  width: 100%;
   position: fixed;
   top: 0;
-  width:100%;
-}
+  background: linear-gradient(to bottom, $teal-blue, $cadet-blue);
 
-#background{
-  background-image: url("../images/background/waterfall.jpeg");
-  width: 100%;
-  height: 100%;
-  // margin-top: -188px;
-  top:-30px;
-  position: fixed;
 }
-
 #welcomeSection h1{
-  padding-top: 6rem;
+  font-size: 72px;
 }
 
 #aboutSection{
@@ -104,7 +99,9 @@ section{
 }
 #about-picture{
   border-radius: 50%;
-  float: right;
+}
+.about-picture-float{
+  float:right;
 }
 .workImage{
   padding: 5px 5px 5px 5px;
@@ -133,10 +130,7 @@ width:100%;
 
 }
 form {
-  text-align:left;
-  margin-left: 29%;
-  margin-right: auto;
-  display: block;
+  text-align: center;
   width: 100%;
 }
 
@@ -147,22 +141,23 @@ form {
   color:$teal-blue;
   border-radius: 15px;
   font-size: 18px;
-  padding: 10px;
+  font-family: $open-sans;
+  padding: 0.25rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 50%;
+  width: 30%;
 }
 #footer{
-  height: 100px;
+  height: auto;
   background-color: $camo-green;
-  font-size: 12px;
+  font-size: 14px;
 
 }
 #footer-content{
   text-align: left;
-  margin-top: -20px;
-  margin-left: 25px;
+  margin-top: -1.5rem;
+  margin-left: 2rem;
 }
 
 ::-webkit-scrollbar{
