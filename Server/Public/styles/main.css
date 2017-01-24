@@ -36,7 +36,8 @@ section {
   width: 100%; }
 
 .bold {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 16px; }
 
 #nav-links {
   text-align: right; }
@@ -85,7 +86,11 @@ section {
   padding: 0 3rem; }
 
 #about-picture {
-  border-radius: 50%; }
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #E5ECE1;
+  margin-top: -10px; }
 
 .about-picture-float {
   float: right; }
@@ -98,8 +103,15 @@ section {
 #workSection {
   background-color: #76986C; }
 
+#workSection h1 {
+  margin-top: -40px; }
+
 #contactSection {
-  background-color: #689DB0; }
+  background-color: #689DB0;
+  height: 300px; }
+
+#contactSection h1 {
+  margin-top: -40px; }
 
 #contact-wrapper {
   display: block;
@@ -112,10 +124,6 @@ section {
   margin-left: auto;
   margin-right: auto;
   text-align: center; }
-
-form {
-  text-align: center;
-  width: 100%; }
 
 #contact-button {
   border: none;
@@ -131,14 +139,15 @@ form {
   width: 30%; }
 
 #footer {
-  height: auto;
+  height: 75px;
   background-color: #76986C;
   font-size: 14px; }
 
 #footer-content {
   text-align: left;
-  margin-top: -1.5rem;
-  margin-left: 2rem; }
+  margin-top: -2rem;
+  margin-left: 2rem;
+  line-height: 75%; }
 
 ::-webkit-scrollbar {
   display: none; }
