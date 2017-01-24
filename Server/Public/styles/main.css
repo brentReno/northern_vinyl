@@ -14,7 +14,146 @@ h1 {
 ::-webkit-scrollbar {
   display: none; }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 668px) and (max-width: 768px) {
+  body {
+    padding-top: 590px;
+    width: 100%; }
+
+  html, body {
+    font-size: 18px; }
+
+  section {
+    width: 100%;
+    position: relative;
+    margin: 0 -0.5rem;
+    padding: 0 0.5rem;
+    text-align: center;
+    color: #E5ECE1; }
+
+  .nav {
+    width: 770px;
+    position: relative;
+    height: 50px;
+    background-color: #E5ECE1;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    margin-bottom: -50px;
+    font-family: "Amatic SC", cursive;
+    padding-top: 10px; }
+
+  .nav-scrolled {
+    position: fixed;
+    top: 1px; }
+
+  .bold {
+    font-weight: bold;
+    font-size: 16px; }
+
+  #nav-links {
+    text-align: right; }
+
+  #nav-links a {
+    margin-left: 1.5rem;
+    font-size: 24px;
+    color: #30708B;
+    text-decoration: none;
+    line-height: 50px; }
+
+  #nav-links:last-child {
+    margin-right: 1.5rem; }
+
+  #nav-links:first-child {
+    margin-left: 0; }
+
+  #nav-logo {
+    margin-left: 3rem;
+    margin-top: 1px;
+    clear: none;
+    float: left;
+    width: 48px; }
+
+  #welcomeSection {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("../images/background/waterfall.jpeg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-origin: padding-box; }
+
+  #welcomeSection h1 {
+    margin-top: 35px;
+    font-size: 96px; }
+
+  #welcomeSection img {
+    margin-top: -90px; }
+
+  #aboutSection {
+    height: 400px;
+    padding-top: 50px;
+    background-color: #689DB0; }
+
+  #aboutSection p {
+    padding: 0 4rem; }
+
+  .about-picture-float {
+    float: right; }
+
+  #about-picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #E5ECE1;
+    margin-top: -15px;
+    margin-left: 3px; }
+
+  .workImage {
+    padding: 5px 5px 5px 5px;
+    height: 250px;
+    width: 250px; }
+
+  #workSection {
+    height: auto;
+    background-color: #76986C;
+    padding-bottom: 20px; }
+
+  #workSection h1 {
+    margin-top: -40px; }
+
+  #contactSection {
+    background-color: #689DB0;
+    margin-top: -40px;
+    height: auto;
+    padding-bottom: 35px; }
+
+  #contact-button {
+    border: none;
+    background-color: #E5ECE1;
+    color: #30708B;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 0.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%; }
+
+  #footer {
+    margin-top: -0.8rem;
+    height: auto;
+    background-color: #76986C;
+    font-size: 14px; }
+
+  #footer-content {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 2rem;
+    line-height: 75%; } }
+@media (min-width: 769px) and (max-width: 1024px) {
   body {
     padding-top: 590px;
     width: 100%; }
@@ -32,7 +171,7 @@ h1 {
     color: #E5ECE1; }
 
   .nav {
-    width: 100%;
+    width: 1024px;
     position: relative;
     height: 50px;
     background-color: #E5ECE1;
@@ -43,8 +182,7 @@ h1 {
 
   .nav-scrolled {
     position: fixed;
-    top: 8px;
-    width: 100%; }
+    top: 8px; }
 
   .bold {
     font-weight: bold;
