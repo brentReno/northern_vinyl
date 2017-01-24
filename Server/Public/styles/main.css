@@ -43,7 +43,7 @@ h1 {
 
   .nav-scrolled {
     position: fixed;
-    top: 1px; }
+    top: 0; }
 
   .bold {
     font-weight: bold;
@@ -182,7 +182,7 @@ h1 {
 
   .nav-scrolled {
     position: fixed;
-    top: 8px; }
+    top: 0; }
 
   .bold {
     font-weight: bold;
