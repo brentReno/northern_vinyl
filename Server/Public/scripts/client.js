@@ -4,7 +4,7 @@ $(document).ready(function(){
   var nav = $(".nav");
   //nav bar will stick to top of window on scroll
   $(window).scroll(function(){
-    if( $(this).scrollTop() > 650){
+    if( $(this).scrollTop() > 645){
       nav.addClass(" nav-scrolled");
     } else{
       nav.removeClass(" nav-scrolled");
