@@ -66,10 +66,17 @@ section {
   width: 100%;
   position: fixed;
   top: 0;
-  background: linear-gradient(to bottom, #30708B, #689DB0); }
+  background: linear-gradient(to bottom, #30708B, #689DB0);
+  background-image: url("../images/background/waterfall.jpeg");
+  background-size: contain;
+  background-position: -50px -120px; }
 
 #welcomeSection h1 {
-  font-size: 72px; }
+  margin-top: -3px;
+  font-size: 120px; }
+
+#welcomeSection img {
+  margin-top: -120px; }
 
 #aboutSection {
   background-color: #689DB0; }
@@ -84,7 +91,9 @@ section {
   float: right; }
 
 .workImage {
-  padding: 5px 5px 5px 5px; }
+  padding: 5px 5px 5px 5px;
+  height: 300px;
+  width: 300px; }
 
 #workSection {
   background-color: #76986C; }
