@@ -2,9 +2,18 @@
 $(document).ready(function(){
   console.log("ready");
   var nav = $(".nav");
+//check window width, and set scroll top
+  var scrollHeight;
+  var windowSize = $(window).width();
+  if (windowSize >1024){
+    scrollHeight = 645;
+  }
+  if(windowSize <= 1024){
+    scrollHeight = 590;
+  }
   //nav bar will stick to top of window on scroll
   $(window).scroll(function(){
-    if( $(this).scrollTop() > 645){
+    if( $(this).scrollTop() > scrollHeight){
       nav.addClass(" nav-scrolled");
     } else{
       nav.removeClass(" nav-scrolled");
