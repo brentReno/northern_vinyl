@@ -12,7 +12,7 @@ $(document).ready(function(){
     scrollHeight = 590;
   }
   if(windowSize <= 667){
-    scrollHeight = 325;
+    scrollHeight = 323;
   }
   if(windowSize<= 375){
     scrollHeight = 227;
