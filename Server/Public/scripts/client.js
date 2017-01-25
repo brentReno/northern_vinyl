@@ -11,6 +11,9 @@ $(document).ready(function(){
   if(windowSize <= 1024){
     scrollHeight = 590;
   }
+  if(windowSize <= 667){
+    scrollHeight = 325;
+  }
   if(windowSize<= 375){
     scrollHeight = 227;
   }
