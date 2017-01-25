@@ -11,8 +11,8 @@ $open-sans: 'Open Sans Condensed', sans-serif;
 $desktop: "(min-width: 1025px)";
 $tablet-landscape: "(min-width: 769px) and (max-width: 1024px)";
 $tablet-portrait: "(min-width: 668px) and (max-width: 768px)";
-$iphone: "(min-width: 375px) and (max-width: 767px)";
-
+$iphone-landscape: "(min-width: 376px) and (max-width: 667px)";
+$iphone-portrait: "(max-width: 375px)";
 ////////////////////////////////////// all sizes\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 body{
   overflow-x: hidden;
@@ -32,8 +32,319 @@ h1{
 ::-webkit-scrollbar{
   display: none;
 }
+///////////////////////////////////////// iphone landscape styles \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+@media #{$iphone-landscape}{
+  body{
+    padding-top: 325px;
+    width: 100%;
+  }
 
-//////////////////////////////////////////tablet portrait styles \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  html, body{
+    font-size: 18px;
+  }
+  section{
+    width: 100%;
+    position: relative;
+    margin: 0 -0.5rem;
+    padding: 0 0.5rem;
+    text-align: center;
+    color: $platinum;
+  }
+  .nav{
+    width: 100%;
+    position: relative;
+    height:$nav-sizing;
+    background-color: $platinum;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
+    margin-bottom: -$nav-sizing;
+    font-family: $amatic-sc;
+  }
+
+  .nav-scrolled{
+    position: fixed;
+    top: 0px;
+  }
+  .bold{
+    font-weight:bold;
+    font-size: 16px;
+  }
+  #nav-links{
+    text-align: right;
+  }
+
+  #nav-links a{
+    margin-left: 1.5rem;
+    font-size: 24px;
+    color: $teal-blue;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  #nav-links:last-child{
+    margin-right: 2rem;
+  }
+  #nav-links:first-child{
+    margin-left: 0;
+  }
+
+  #nav-logo{
+    margin-left: 2rem;
+    margin-top: 7px;
+    clear: none;
+    float:left;
+    width:36px;
+  }
+
+  #welcomeSection{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: -20px;
+    left: 0;
+    // background: linear-gradient(to bottom, $teal-blue, $cadet-blue);
+    background-image: url("../images/background/waterfall.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #welcomeSection h1{
+    margin-top: 65px;
+    font-size: 50px;
+  }
+
+  #welcomeSection img{
+    margin-top: -50px;
+    width: 75px;
+    height: 75px;
+  }
+  #aboutSection{
+    height: 600px;
+    background-color: $cadet-blue;
+  }
+  #aboutSection h1{
+    text-align: center;
+    clear: both;
+  }
+  #aboutSection p{
+    padding: 0 2rem;
+  }
+
+  #about-picture{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid $platinum;
+    margin-top: -25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .workImage{
+    padding: 5px 5px 5px 5px;
+    height: 250px;
+    width: 250px;
+  }
+  #workSection{
+    height: auto;
+    background-color:$camo-green;
+    padding-bottom: 20px;
+  }
+
+  #workSection h1{
+    margin-top: -40px;
+  }
+  #contactSection{
+    background-color: $cadet-blue;
+    margin-top: -40px;
+    height: auto;
+    padding-bottom: 35px;
+  }
+
+  #contact-button{
+    border: none;
+    background-color: $platinum;
+    color:$teal-blue;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: $open-sans;
+    padding: 0.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+  }
+  #footer{
+    margin-top: -0.8rem;
+    height: auto;
+    background-color: $camo-green;
+    font-size: 14px;
+
+  }
+  #footer-content{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 2rem;
+    line-height: 75%;
+  }
+}
+/////////////////////////////////////////iphone portrait styles \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+@media #{$iphone-portrait}{
+  body{
+    padding-top: 227px;
+    width: 100%;
+  }
+
+  html, body{
+    font-size: 18px;
+  }
+  section{
+    width: 100%;
+    position: relative;
+    margin: 0 -0.5rem;
+    padding: 0 0.5rem;
+    text-align: center;
+    color: $platinum;
+  }
+  .nav{
+    width: 385px;
+    position: relative;
+    height:$nav-sizing;
+    background-color: $platinum;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
+    margin-bottom: -$nav-sizing;
+    font-family: $amatic-sc;
+  }
+
+  .nav-scrolled{
+    position: fixed;
+    top: 0px;
+  }
+  .bold{
+    font-weight:bold;
+    font-size: 16px;
+  }
+  #nav-links{
+    text-align: right;
+  }
+
+  #nav-links a{
+    margin-left: 1.5rem;
+    font-size: 24px;
+    color: $teal-blue;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  #nav-links:last-child{
+    margin-right: 2rem;
+  }
+  #nav-links:first-child{
+    margin-left: 0;
+  }
+
+  #nav-logo{
+    margin-left: 2rem;
+    margin-top: 7px;
+    clear: none;
+    float:left;
+    width:36px;
+  }
+
+  #welcomeSection{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    // background: linear-gradient(to bottom, $teal-blue, $cadet-blue);
+    background-image: url("../images/background/waterfall.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #welcomeSection h1{
+    margin-top: 35px;
+    font-size: 48px;
+  }
+
+  #welcomeSection img{
+    display: none;
+  }
+  #aboutSection{
+    height: 600px;
+    background-color: $cadet-blue;
+  }
+  #aboutSection h1{
+    text-align: center;
+    clear: both;
+  }
+  #aboutSection p{
+    padding: 0 2rem;
+  }
+
+  #about-picture{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid $platinum;
+    margin-top: -25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .workImage{
+    padding: 5px 5px 5px 5px;
+    height: 250px;
+    width: 250px;
+  }
+  #workSection{
+    height: auto;
+    background-color:$camo-green;
+    padding-bottom: 20px;
+  }
+
+  #workSection h1{
+    margin-top: -40px;
+  }
+  #contactSection{
+    background-color: $cadet-blue;
+    margin-top: -40px;
+    height: auto;
+    padding-bottom: 35px;
+  }
+
+  #contact-button{
+    border: none;
+    background-color: $platinum;
+    color:$teal-blue;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: $open-sans;
+    padding: 0.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+  }
+  #footer{
+    margin-top: -0.8rem;
+    height: auto;
+    background-color: $camo-green;
+    font-size: 14px;
+
+  }
+  #footer-content{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 2rem;
+    line-height: 75%;
+  }
+}
+//////////////////////////////////////////table portrait styles \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 @media #{$tablet-portrait}{
   body{
     padding-top: 590px;

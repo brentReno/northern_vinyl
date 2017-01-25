@@ -2,7 +2,7 @@
 $(document).ready(function(){
   console.log("ready");
   var nav = $(".nav");
-//check window width, and set scroll top
+//check window width, and set scroll top for device width
   var scrollHeight;
   var windowSize = $(window).width();
   if (windowSize >1024){
@@ -10,6 +10,12 @@ $(document).ready(function(){
   }
   if(windowSize <= 1024){
     scrollHeight = 590;
+  }
+  if(windowSize <= 667){
+    scrollHeight = 325;
+  }
+  if(windowSize<= 375){
+    scrollHeight = 227;
   }
   //nav bar will stick to top of window on scroll
   $(window).scroll(function(){
