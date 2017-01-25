@@ -38,7 +38,8 @@ h1 {
     z-index: 150;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
     margin-bottom: -50px;
-    font-family: "Amatic SC", cursive; }
+    font-family: "Amatic SC", cursive;
+    padding-top: 5px; }
 
   .nav-scrolled {
     position: fixed;
