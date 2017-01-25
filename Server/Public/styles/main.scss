@@ -35,7 +35,7 @@ h1{
 ///////////////////////////////////////// iphone landscape styles \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 @media #{$iphone-landscape}{
   body{
-    padding-top: 323px;
+    padding-top: 325px;
     width: 100%;
   }
 
@@ -59,7 +59,6 @@ h1{
     box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
     margin-bottom: -$nav-sizing;
     font-family: $amatic-sc;
-    padding-top: 5px;
   }
 
   .nav-scrolled{
@@ -193,7 +192,7 @@ h1{
 
 @media #{$iphone-portrait}{
   body{
-    padding-top: 227px;
+    padding-top: 230px;
     width: 100%;
   }
 

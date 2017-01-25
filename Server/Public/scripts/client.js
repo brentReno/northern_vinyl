@@ -12,10 +12,10 @@ $(document).ready(function(){
     scrollHeight = 590;
   }
   if(windowSize <= 667){
-    scrollHeight = 323;
+    scrollHeight = 325;
   }
   if(windowSize<= 375){
-    scrollHeight = 227;
+    scrollHeight = 230;
   }
   //nav bar will stick to top of window on scroll
   $(window).scroll(function(){
